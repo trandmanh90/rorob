@@ -1,0 +1,109 @@
+jQuery(document).ready(function($) {
+    $('.bwp-nav .toggle-main-navigation img').click(function() {
+        $('.bwp-nav .box-nav').addClass('active');
+    });
+    $('.bwp-nav .btn-close').click(function() {
+        $('.bwp-nav .box-nav').removeClass('active');
+    });
+});
+
+//scroll
+jQuery(document).ready(function ($) {
+
+    // phẩn tử đầu tiên
+    let firstElement = $("nav.bwp-nav").first();    
+    let bwpSinglePostSection = $("main.bwp-single-post-section");
+    let bwpLatestPostsSection = $("section.bwp-latest-posts-section");
+
+    // Chọn wrapper chứa nội dung bài viết
+    let wrapper = $(".bwp-posts-wrapper, .bwp-single-post-media-container, .bwp-single-post-content").first();
+
+    // Chọn hình ảnh cuộn (ảnh sẽ thay đổi vị trí khi cuộn trang)
+    let image = $(".bwp-latest-posts-scroll-img");
+
+    // Lấy vị trí và kích thước của wrapper
+    let firstElementTop = firstElement.offset().top; // Khoảng cách từ top của trang đến phần tử đầu tiên
+    let wrapperHeight = wrapper.outerHeight() + firstElement.outerHeight(); // Chiều cao của wrapper
+
+    // Lấy kích thước của ảnh
+    let imgHeight = image.outerHeight();
+    let imgWidth = image.outerWidth();
+
+    // Xác định giới hạn cuộn (hình ảnh chỉ cuộn trong phạm vi này)
+    let maxScroll;
+    if (bwpSinglePostSection.length > 0) {
+        maxScroll = firstElementTop + firstElement.outerHeight() + bwpSinglePostSection.outerHeight() - imgHeight;
+    } else if (bwpLatestPostsSection.length > 0) {
+        maxScroll = firstElementTop + firstElement.outerHeight() + bwpLatestPostsSection.outerHeight() - imgHeight;
+    } else {
+        maxScroll = firstElementTop + wrapperHeight - imgHeight;
+    }
+
+    // Lấy thông tin về vị trí và kích thước của wrapper theo chiều ngang
+    let wrapperLeft = wrapper.offset().left; // Vị trí theo chiều ngang của wrapper
+    let wrapperWidth = wrapper.outerWidth(); // Chiều rộng của wrapper
+    let windowWidth = $(window).width(); // Chiều rộng của cửa sổ trình duyệt
+
+    // Vị trí ban đầu của hình ảnh (đặt bên phải của wrapper)
+    let imageLeft = wrapperLeft + wrapperWidth;
+
+    // Tính khoảng không gian tối đa mà ảnh có thể mở rộng
+    let maxWidth = windowWidth - imageLeft;
+
+    // Đặt chiều rộng tối đa cho hình ảnh
+    image.css({
+        maxWidth: maxWidth + "px",
+    });
+
+    // Nếu màn hình nhỏ hơn 1820px, di chuyển ảnh ra khỏi màn hình (ẩn đi)
+    if (windowWidth < 1820) {
+        image.css({
+            right: -maxWidth + "px",
+        });
+    }
+
+    image.css({
+        top: firstElementTop, // Giữ ảnh cách top 10px
+        left: imageLeft + "px"
+    });
+
+    // Sự kiện cuộn trang (scroll)
+    $(window).on("scroll", function () {
+        let scrollTop = $(window).scrollTop(); // Lấy vị trí cuộn hiện tại của trang
+
+        // Nếu người dùng cuộn xuống trong phạm vi của wrapper
+        if (scrollTop > firstElementTop && scrollTop < maxScroll) {
+            image.css({
+                position: "fixed", // Cố định ảnh khi cuộn
+                top: "10px", // Giữ ảnh cách top 10px
+                left: imageLeft + "px", // Giữ ảnh theo vị trí ban đầu theo chiều ngang
+                maxWidth: maxWidth + "px"
+            });
+        } 
+        // Nếu người dùng cuộn lên đầu trang (ảnh về lại vị trí ban đầu)
+        else if (scrollTop <= firstElementTop) {
+            image.css({
+                position: "absolute", // Trả ảnh về vị trí tuyệt đối
+                top: firstElementTop, // Không đặt top (mặc định của CSS)
+                left: imageLeft + "px", // Không đặt left (mặc định của CSS)
+                maxWidth: maxWidth + "px"
+            });
+        } 
+        // Nếu người dùng cuộn qua giới hạn của wrapper (ảnh không theo cuộn nữa)
+        else {
+            image.css({
+                position: "absolute",
+                top: firstElementTop,
+                left: imageLeft + "px",
+                maxWidth: maxWidth + "px"
+            });
+        }
+    });
+
+    // Sự kiện khi thay đổi kích thước cửa sổ trình duyệt (resize)
+    $(window).on("resize", function () {
+        let windowWidth = $(window).width(); // Lấy lại chiều rộng cửa sổ
+        let maxWidth = windowWidth - imageLeft - 20; // Cập nhật khoảng không gian tối đa
+        image.css("max-width", maxWidth + "px"); // Cập nhật chiều rộng tối đa cho ảnh
+    });
+});

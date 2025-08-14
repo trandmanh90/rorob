@@ -1,0 +1,576 @@
+/*
+Theme name: Halva
+Description: Styles are used to change fonts to serif fonts
+Version: 1.0
+*/
+
+/* body */
+body.bwp-serif-fonts {
+	font-family: 'Noto Serif', serif;
+}
+
+/* headings: h1 - h6; legend */
+.bwp-serif-fonts h1,
+.bwp-serif-fonts h2,
+.bwp-serif-fonts h3,
+.bwp-serif-fonts h4,
+.bwp-serif-fonts h5,
+.bwp-serif-fonts h6,
+.bwp-serif-fonts legend {
+	font-family: 'Lora', serif;
+	font-weight: 700;
+}
+
+/* block quote */
+.bwp-serif-fonts blockquote,
+.bwp-serif-fonts blockquote::before {
+	font-family: 'Lora', serif;
+}
+
+/* label */
+.bwp-serif-fonts label {
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/* input tags (input and textarea), selection (select) */
+.bwp-serif-fonts input[type="text"]:not(.bwp-search-field),
+.bwp-serif-fonts input[type="email"],
+.bwp-serif-fonts input[type="url"],
+.bwp-serif-fonts input[type="password"],
+.bwp-serif-fonts input[type="search"],
+.bwp-serif-fonts input[type="tel"],
+.bwp-serif-fonts input[type="number"],
+.bwp-serif-fonts input[type="date"],
+.bwp-serif-fonts textarea,
+.bwp-serif-fonts select {
+	font-family: 'Noto Serif', serif;
+}
+
+/* form buttons */
+.bwp-serif-fonts input[type="button"],
+.bwp-serif-fonts input[type="reset"],
+.bwp-serif-fonts input[type="submit"] {
+	font-family: 'Noto Serif', serif;
+	font-weight: 500;
+	letter-spacing: 0.4px;
+}
+.bwp-serif-fonts .bwp-button.bwp-with-text {
+	font-family: 'Noto Serif', serif;
+}
+
+/* contact form 7 */
+.bwp-serif-fonts .wpcf7 .wpcf7-form .wpcf7-list-item label {
+	font-family: 'Noto Serif', serif;
+}
+.bwp-serif-fonts .wpcf7 .wpcf7-form .wpcf7-not-valid-tip {
+	font-family: 'Lora', serif;
+}
+
+/* logo: text */
+.bwp-serif-fonts .bwp-logo-container.bwp-logo-text-container {
+	margin-top: -6px;
+	margin-bottom: -6px;
+}
+.bwp-serif-fonts .bwp-logo-text,
+.bwp-serif-fonts .bwp-main-nav-logo-text {
+	font-family: 'Lora', serif;
+	font-weight: 600;
+}
+
+/* main menu */
+.bwp-serif-fonts .sf-menu {
+	font-family: 'Lora', serif;
+}
+.bwp-serif-fonts .sf-menu a {
+	line-height: 69px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.bwp-serif-fonts .sf-menu ul li a {
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: 400;
+}
+.bwp-serif-fonts .sf-arrows .sf-with-ul::after,
+.bwp-serif-fonts .sf-arrows ul .sf-with-ul::after {
+	font-size: 12px;
+}
+.bwp-serif-fonts .sf-arrows ul .sf-with-ul::after {
+	top: 10px;
+}
+
+/* subscribe */
+.bwp-serif-fonts .bwp-subscribe-link {
+	line-height: 69px;
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/* mobile menu */
+.bwp-serif-fonts .bwp-toggle-mobile-menu-button {
+	font-family: 'Lora', serif;
+}
+.bwp-serif-fonts .bwp-toggle-mobile-menu-button .bwp-button-text {
+	font-size: 14px;
+	font-weight: 600;
+}
+.bwp-serif-fonts .bwp-dropdown-mobile-menu-container {
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	font-weight: 600;
+}
+.bwp-serif-fonts .bwp-mobile-menu ul li a {
+	font-weight: 400;
+}
+.bwp-serif-fonts .bwp-mobile-menu-container .bwp-subscribe-link {
+	line-height: inherit;
+}
+.bwp-serif-fonts .bwp-mobile-menu-container .bwp-searchform-label {
+	font-weight: 400;
+}
+.bwp-serif-fonts .bwp-mobile-menu-container .bwp-searchform .bwp-search-field {
+	font-family: 'Lora', serif;
+	font-size: 14px;
+}
+.bwp-serif-fonts .bwp-mobile-menu-container .bwp-social-links .bwp-social-links-label {
+	font-weight: 400;
+}
+
+/* homepage carousel */
+.bwp-serif-fonts .bwp-homepage-carousel-post-metadata {
+	margin-bottom: 6px;
+}
+.bwp-serif-fonts .bwp-homepage-carousel-post-metadata li {
+	font-family: 'PT Serif', serif;
+	font-weight: 400;
+}
+.bwp-serif-fonts .bwp-homepage-carousel-post-title {
+	margin-bottom: 1px;
+	font-weight: 700;
+}
+
+/* archive page: title and subtitle */
+.bwp-serif-fonts .bwp-archive-title {
+	font-weight: 700;
+}
+.bwp-serif-fonts .bwp-archive-description {
+	margin-top: 16px;
+}
+
+/* top bar: layout options and additional information */
+.bwp-serif-fonts #bwp-options-for-latest-posts {
+	font-family: 'Lora', serif;
+}
+.bwp-serif-fonts .bwp-page-numbers,
+.bwp-serif-fonts .bwp-layout-options-label {
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/* posts: post content */
+.bwp-serif-fonts .bwp-post-metadata {
+	margin-bottom: 4px;
+}
+.bwp-serif-fonts .bwp-post-metadata li {
+	font-family: 'PT Serif', serif;
+	font-weight: 400;
+}
+.bwp-serif-fonts .bwp-post-title {
+	margin-bottom: 16px;
+	font-weight: 700;
+}
+.bwp-serif-fonts .bwp-post-links li {
+	font-family: 'PT Serif', serif;
+	font-weight: 400;
+}
+.bwp-serif-fonts .bwp-post-has-no-title .bwp-post-metadata {
+	margin-bottom: 12px;
+}
+.bwp-serif-fonts .bwp-blog-post.format-quote .bwp-post-title,
+.bwp-serif-fonts .bwp-blog-post.format-status .bwp-post-title {
+	margin-bottom: 15px;
+}
+
+/* "no results" message (content none) */
+.bwp-serif-fonts .bwp-no-results-content h3 {
+	margin-bottom: 16px;
+	font-weight: 700;
+}
+
+/* pagination */
+.bwp-serif-fonts .pagination {
+	font-family: 'Lora', serif;
+}
+.bwp-serif-fonts .pagination .nav-links .page-numbers {
+	font-weight: 600;
+}
+
+/* single page: post title and metadata */
+.bwp-serif-fonts .bwp-single-post-title {
+	font-size: 33px;
+	font-weight: 700;
+}
+.bwp-serif-fonts .bwp-single-post-metadata li,
+.bwp-serif-fonts .bwp-single-post-taxonomies {
+	font-family: 'PT Serif', serif;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+/* WordPress content styles: block editor */
+.bwp-serif-fonts .bwp-content .wp-block-quote,
+.bwp-serif-fonts .bwp-content .wp-block-quote > * {
+	font-family: 'Lora', serif;
+}
+.bwp-serif-fonts .bwp-content .wp-block-pullquote blockquote,
+.bwp-serif-fonts .bwp-content .wp-block-pullquote blockquote > * {
+	font-family: 'Noto Serif', serif;
+}
+.bwp-serif-fonts .bwp-content .wp-block-file a.wp-block-file__button,
+.bwp-serif-fonts .bwp-content .wp-block-button__link {
+	font-family: 'Noto Serif', serif;
+	font-weight: 500;
+	letter-spacing: 0.4px;
+}
+.bwp-serif-fonts .bwp-content .is-style-outline .wp-block-button__link {
+	letter-spacing: 0.2px;
+}
+.bwp-serif-fonts .bwp-content .wp-block-calendar table caption,
+.bwp-serif-fonts .bwp-content .wp-block-calendar .wp-calendar-nav a {
+	font-family: 'PT Serif', serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+.bwp-serif-fonts .bwp-content .wp-block-latest-comments .wp-block-latest-comments__comment-meta time {
+	font-family: 'PT Serif', serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+.bwp-serif-fonts .bwp-content ul.wp-block-latest-posts > li > a {
+	font-family: 'Lora', serif;
+	font-weight: 600;
+}
+.bwp-serif-fonts .bwp-content .wp-block-latest-posts .wp-block-latest-posts__post-author,
+.bwp-serif-fonts .bwp-content .wp-block-latest-posts .wp-block-latest-posts__post-date,
+.bwp-serif-fonts .bwp-content .wp-block-rss li .wp-block-rss__item-publish-date,
+.bwp-serif-fonts .bwp-content .wp-block-rss li .wp-block-rss__item-author {
+	font-family: 'PT Serif', serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+.bwp-serif-fonts .bwp-content .wp-block-search .wp-block-search__button {
+	font-family: 'Noto Serif', serif;
+	font-weight: 500;
+	letter-spacing: 0.4px;
+}
+.bwp-serif-fonts .bwp-content .wp-block-post-template .wp-block-post-excerpt__more-link,
+.bwp-serif-fonts .bwp-content .wp-block-post-template .wp-block-post-date,
+.bwp-serif-fonts .bwp-content .wp-block-post-template .wp-block-post-date a,
+.bwp-serif-fonts .bwp-content .wp-block-query-pagination {
+	font-weight: 500;
+}
+.bwp-serif-fonts .bwp-content .wp-block-post-author__content .wp-block-post-author__name {
+	font-weight: 500;
+}
+.bwp-serif-fonts .bwp-content .wp-block-comments-pagination .wp-block-comments-pagination-previous,
+.bwp-serif-fonts .bwp-content .wp-block-comments-pagination .wp-block-comments-pagination-next,
+.bwp-serif-fonts .bwp-content .wp-block-comments-pagination .page-numbers {
+	font-weight: 500;
+}
+.bwp-serif-fonts .bwp-content .wp-block-loginout form .login-remember label {
+	font-family: 'Noto Serif', serif;
+}
+
+/* about the author */
+.bwp-serif-fonts .bwp-about-author .bwp-author-name {
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	font-weight: 600;
+}
+.bwp-serif-fonts .bwp-about-author .bwp-author-posts-link {
+	font-family: 'PT Serif', serif;
+	font-size: 13px;
+	font-weight: 400;
+}
+.bwp-serif-fonts .bwp-about-author .bwp-author-bio {
+	margin-top: 16px;
+}
+
+/* comments */
+.bwp-serif-fonts .comment-reply-title,
+.bwp-serif-fonts .bwp-comments-title {
+	font-weight: 700;
+}
+.bwp-serif-fonts .comment-reply-title {
+	margin-bottom: 16px;
+}
+.bwp-serif-fonts .comment-form label {
+	font-size: 14px;
+	font-weight: 600;
+}
+.bwp-serif-fonts .comment-form-cookies-consent label {
+	font-family: 'Noto Serif', serif;
+	font-size: 15px;
+	font-weight: 400;
+}
+.bwp-serif-fonts .comment-form #submit {
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 0.4px;
+}
+.bwp-serif-fonts .comment-reply-title #cancel-comment-reply-link {
+	font-family: 'PT Serif', serif;
+	font-size: 12px;
+	font-weight: 700;
+}
+.bwp-serif-fonts .bwp-comment-list .comment-meta .comment-author {
+	font-family: 'Lora', serif;
+}
+.bwp-serif-fonts .bwp-comment-list .comment-meta .comment-author .fn {
+	font-size: 14px;
+	font-weight: 600;
+}
+.bwp-serif-fonts .bwp-comment-list .comment-meta .comment-metadata {
+	font-family: 'PT Serif', serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+.bwp-serif-fonts .bwp-comment-list .comment-body .reply a {
+	font-family: 'PT Serif', serif;
+	font-size: 12px;
+	font-weight: 700;
+}
+.bwp-serif-fonts .bwp-comment-list .pingback .comment-body,
+.bwp-serif-fonts .bwp-comment-list .trackback .comment-body {
+	font-family: 'PT Serif', serif;
+	font-weight: 400;
+}
+.bwp-serif-fonts .bwp-comment-list .pingback .comment-body::before,
+.bwp-serif-fonts .bwp-comment-list .trackback .comment-body::before {
+	top: 39px;
+}
+.bwp-serif-fonts .bwp-comment-list .pingback .comment-body > a,
+.bwp-serif-fonts .bwp-comment-list .trackback .comment-body > a {
+	font-family: 'Noto Serif', serif;
+}
+.bwp-serif-fonts .bwp-comment-list .pingback .comment-body .edit-link a,
+.bwp-serif-fonts .bwp-comment-list .trackback .comment-body .edit-link a {
+	font-family: 'PT Serif', serif;
+	font-size: 12px;
+	font-weight: 700;
+}
+.bwp-serif-fonts .comment-navigation .nav-links a {
+	font-family: 'Noto Serif', serif;
+}
+
+/* post navigation */
+.bwp-serif-fonts .post-navigation .nav-links a .meta-nav {
+	margin-bottom: 6px;
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/* related posts / random posts */
+.bwp-serif-fonts .bwp-related-posts-title,
+.bwp-serif-fonts .bwp-random-posts-title {
+	font-weight: 700;
+}
+.bwp-serif-fonts .bwp-related-posts .post .bwp-post-title,
+.bwp-serif-fonts .bwp-random-posts .post .bwp-post-title {
+	font-weight: 600;
+}
+.bwp-serif-fonts .bwp-related-posts .post .bwp-post-metadata li,
+.bwp-serif-fonts .bwp-random-posts .post .bwp-post-metadata li {
+	font-size: 13px;
+}
+
+/* page 404 (page not found) */
+.bwp-serif-fonts .bwp-page-404-content h1,
+.bwp-serif-fonts .bwp-page-404-content h2 {
+	font-weight: 700;
+}
+.bwp-serif-fonts .bwp-page-404-content h2 {
+	margin-bottom: 16px;
+}
+
+/* font types (sans-serif or serif) */
+.bwp-serif-fonts .bwp-font-type {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	font-weight: 600;
+}
+.bwp-serif-fonts .bwp-dropdown-fonts-container .bwp-font-type:first-child {
+	padding-bottom: 13px;
+}
+
+/* dropdown search form */
+.bwp-serif-fonts .bwp-dropdown-search-container .bwp-searchform .bwp-search-field {
+	font-family: 'Lora', serif;
+	font-size: 14px;
+}
+
+/* widgets */
+.bwp-serif-fonts .bwp-widget .bwp-widget-title,
+.bwp-serif-fonts .widget .widgettitle {
+	font-weight: 700;
+}
+.bwp-serif-fonts .widget_recent_entries ul li .post-date {
+	font-family: 'PT Serif', serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+.bwp-serif-fonts .bwp-sidebar-content ul.wp-block-latest-posts > li > a {
+	font-family: 'Noto Serif', serif;
+	font-size: 15px;
+	font-weight: 400;
+}
+.bwp-serif-fonts .bwp-sidebar-content .wp-block-latest-posts.is-grid.columns-4 > li > a,
+.bwp-serif-fonts .bwp-sidebar-content .wp-block-latest-posts.is-grid.columns-5 > li > a,
+.bwp-serif-fonts .bwp-sidebar-content .wp-block-latest-posts.is-grid.columns-6 > li > a {
+	font-size: 15px;
+}
+.bwp-serif-fonts .wp-calendar-table caption,
+.bwp-serif-fonts .widget_calendar .wp-calendar-nav a {
+	font-family: 'PT Serif', serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+.bwp-serif-fonts .widget_search .bwp-searchform .bwp-search-field {
+	font-family: 'Noto Serif', serif;
+}
+.bwp-serif-fonts .widget_rss ul li .rss-date,
+.bwp-serif-fonts .widget_rss ul li cite {
+	font-family: 'PT Serif', serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+.bwp-serif-fonts .bwp-sidebar-content .wp-block-loginout form .login-submit input[type="submit"] {
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 0.4px;
+}
+
+/* widget: contact form 7 */
+.bwp-serif-fonts .bwp-sidebar-content .wpcf7 label {
+	font-size: 14px;
+}
+.bwp-serif-fonts .bwp-sidebar-content .wpcf7 .wpcf7-form .wpcf7-list-item label {
+	font-size: 15px;
+}
+.bwp-serif-fonts .bwp-sidebar-content .wpcf7 input[type="button"],
+.bwp-serif-fonts .bwp-sidebar-content .wpcf7 input[type="reset"],
+.bwp-serif-fonts .bwp-sidebar-content .wpcf7 input[type="submit"] {
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 0.4px;
+}
+.bwp-serif-fonts .bwp-sidebar-content .wpcf7 .wpcf7-form .wpcf7-not-valid-tip {
+	font-size: 12px;
+}
+
+/* Halva: additional widgets */
+.bwp-serif-fonts .widget_bwp_popular_post_num {
+	font-family: 'Lora', serif;
+	font-size: 12px;
+}
+.bwp-serif-fonts .widget_bwp_content h4,
+.bwp-serif-fonts .widget_bwp_post_list_item figcaption h4 {
+	font-weight: 600;
+}
+.bwp-serif-fonts .widget_bwp_meta li {
+	font-family: 'PT Serif', serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+/* information about cookies */
+.bwp-serif-fonts .bwp-cookies-info-title {
+	font-weight: 700;
+}
+.bwp-serif-fonts .bwp-accept-cookies-button {
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 0.4px;
+}
+.bwp-serif-fonts .bwp-button-show-cookies-info.bwp-with-text {
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/* magnificPopup */
+.bwp-serif-fonts .mfp-title,
+.bwp-serif-fonts .mfp-counter {
+	font-family: 'Noto Serif', serif;
+}
+
+/* responsive styles */
+
+/* < 768px (767px) */
+@media (max-width: 767px) {
+
+	.bwp-serif-fonts .bwp-logo-container.bwp-logo-text-container {
+		margin-top: -5px;
+		margin-bottom: -5px;
+	}
+	.bwp-serif-fonts .bwp-page-numbers {
+		margin-top: 10px;
+	}
+	.bwp-serif-fonts .bwp-single-post-title {
+		font-size: 27px;
+	}
+	.bwp-serif-fonts .bwp-page-404-content h2 {
+		font-weight: 600;
+	}
+
+}
+
+/* < 576px (575px) */
+@media (max-width: 575px) {
+
+	.bwp-serif-fonts .bwp-archive-description {
+		margin-top: 15px;
+	}
+	.bwp-serif-fonts .bwp-about-author .bwp-author-bio {
+		margin-top: 21px;
+	}
+
+}
+
+/* < 500px (499px) */
+@media (max-width: 499px) {
+
+	.bwp-serif-fonts .bwp-logo-container.bwp-logo-text-container {
+		margin-top: -6px;
+		margin-bottom: -4px;
+	}
+	.bwp-serif-fonts .bwp-comment-list .pingback .comment-body::before,
+	.bwp-serif-fonts .bwp-comment-list .trackback .comment-body::before {
+		top: -2px;
+	}
+	.bwp-serif-fonts .bwp-comments-area .bwp-no-comments {
+		font-family: 'Lora', serif;
+		font-size: 14px;
+		font-weight: 600;
+	}
+
+}
+
+/* < 400px (399px) */
+@media (max-width: 399px) {
+
+	.bwp-serif-fonts .bwp-archive-description {
+		margin-top: 16px;
+	}
+	.bwp-serif-fonts .bwp-single-post-title {
+		font-size: 23px;
+	}
+
+}

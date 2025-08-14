@@ -1,0 +1,39 @@
+26-03-2025 10:24:31 - INFO  - 8.7.5 - 75.6 MB/ - [cron] > Start upgrade from 8.7.1
+26-03-2025 10:24:31 - INFO  - 8.7.5 - 79.1 MB/ - [cron] > Array
+(
+    [`uyswp_newsletter_emails`] => Created table `uyswp_newsletter_emails`
+)
+
+26-03-2025 10:24:31 - INFO  - 8.7.5 - 79.1 MB/ - [cron] > Array
+(
+    [`uyswp_newsletter_sent`] => Created table `uyswp_newsletter_sent`
+)
+
+26-03-2025 10:24:31 - INFO  - 8.7.5 - 79.1 MB/ - [cron] > Array
+(
+    [`uyswp_newsletter`] => Created table `uyswp_newsletter`
+)
+
+26-03-2025 10:24:31 - INFO  - 8.7.5 - 79.1 MB/ - [cron] > Array
+(
+    [`uyswp_newsletter_user_logs`] => Created table `uyswp_newsletter_user_logs`
+)
+
+26-03-2025 10:24:31 - INFO  - 8.7.5 - 79.1 MB/ - [cron] > Array
+(
+    [`uyswp_newsletter_user_meta`] => Created table `uyswp_newsletter_user_meta`
+)
+
+26-03-2025 10:24:31 - INFO  - 8.7.5 - 79.1 MB/ - [cron] > Array
+(
+    [`uyswp_newsletter_stats`] => Created table `uyswp_newsletter_stats`
+)
+
+26-03-2025 10:24:31 - INFO  - 8.7.5 - 79.1 MB/ - [cron] > Array
+(
+    [`uyswp_newsletter_logs`] => Created table `uyswp_newsletter_logs`
+    [uyswp_newsletter_logs.status] => Changed type of uyswp_newsletter_logs.status from int(11) to int
+)
+
+26-03-2025 10:24:31 - INFO  - 8.7.5 - 79.1 MB/ - [cron] > Backing up options of 8.7.1
+26-03-2025 10:24:31 - INFO  - 8.7.5 - 79.1 MB/ - [cron] > End

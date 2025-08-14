@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+    .tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-list__event {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-list__event-featured-image-wrapper {
+        max-width: 150px;
+    }
+}

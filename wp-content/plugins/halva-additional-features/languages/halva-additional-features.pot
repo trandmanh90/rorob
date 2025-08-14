@@ -1,0 +1,293 @@
+# Halva Additional Features: Pot File
+# Copyright (C) 2024
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Halva Additional Features v1.1.0\n"
+"POT-Creation-Date: 2024-06-27 11:25+0300\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-Bookmarks: \n"
+
+#: uninstall.php:15
+msgid "Sorry, you are not allowed to delete plugins for this site."
+msgstr ""
+
+#: widgets/widget-list-of-posts.php:34
+msgid "Displays a list of posts with a background image (featured image)."
+msgstr ""
+
+#: widgets/widget-list-of-posts.php:36
+msgid "Halva: List Of Posts"
+msgstr ""
+
+#: widgets/widget-list-of-posts.php:54 widgets/widget-popular-posts.php:56
+#: widgets/widget-random-posts.php:53 widgets/widget-recent-posts.php:53
+#: widgets/widget-social-links.php:79
+msgid "Title:"
+msgstr ""
+
+#: widgets/widget-list-of-posts.php:61 widgets/widget-popular-posts.php:63
+#: widgets/widget-random-posts.php:60 widgets/widget-recent-posts.php:60
+msgid "Number of posts:"
+msgstr ""
+
+#: widgets/widget-list-of-posts.php:69 widgets/widget-popular-posts.php:71
+#: widgets/widget-random-posts.php:68 widgets/widget-recent-posts.php:68
+msgid "Show author"
+msgstr ""
+
+#: widgets/widget-list-of-posts.php:76 widgets/widget-popular-posts.php:78
+#: widgets/widget-random-posts.php:75 widgets/widget-recent-posts.php:75
+msgid "Show date"
+msgstr ""
+
+#: widgets/widget-list-of-posts.php:82 widgets/widget-popular-posts.php:98
+#: widgets/widget-random-posts.php:81 widgets/widget-recent-posts.php:81
+msgid "Filter by category:"
+msgstr ""
+
+#: widgets/widget-list-of-posts.php:84 widgets/widget-popular-posts.php:100
+#: widgets/widget-random-posts.php:83 widgets/widget-recent-posts.php:83
+msgid "All categories"
+msgstr ""
+
+#: widgets/widget-list-of-posts.php:102
+msgid "Random order"
+msgstr ""
+
+#: widgets/widget-list-of-posts.php:129
+msgid "List of posts"
+msgstr ""
+
+#: widgets/widget-list-of-posts.php:222 widgets/widget-popular-posts.php:277
+#: widgets/widget-random-posts.php:216 widgets/widget-recent-posts.php:216
+msgid "Read Post"
+msgstr ""
+
+#: widgets/widget-list-of-posts.php:294 widgets/widget-popular-posts.php:386
+#: widgets/widget-random-posts.php:287 widgets/widget-recent-posts.php:287
+msgid "No posts found."
+msgstr ""
+
+#: widgets/widget-popular-posts.php:34
+msgid "Displays a list of popular posts."
+msgstr ""
+
+#: widgets/widget-popular-posts.php:36
+msgid "Halva: Popular Posts"
+msgstr ""
+
+#: widgets/widget-popular-posts.php:85
+msgid "Show views counter"
+msgstr ""
+
+#: widgets/widget-popular-posts.php:92
+msgid "Show comments counter"
+msgstr ""
+
+#: widgets/widget-popular-posts.php:117
+msgid "Popularity filter:"
+msgstr ""
+
+#: widgets/widget-popular-posts.php:119
+msgid "Views"
+msgstr ""
+
+#: widgets/widget-popular-posts.php:120
+msgid "Comments"
+msgstr ""
+
+#: widgets/widget-popular-posts.php:150
+msgid "Popular posts"
+msgstr ""
+
+#: widgets/widget-popular-posts.php:330
+msgid "Views:"
+msgstr ""
+
+#: widgets/widget-popular-posts.php:344
+msgid "No comments"
+msgstr ""
+
+#: widgets/widget-popular-posts.php:344 widgets/widget-popular-posts.php:354
+msgid "1 Comment"
+msgstr ""
+
+#: widgets/widget-popular-posts.php:344 widgets/widget-popular-posts.php:354
+msgid "% Comments"
+msgstr ""
+
+#: widgets/widget-random-posts.php:34
+msgid "Displays a list of random posts."
+msgstr ""
+
+#: widgets/widget-random-posts.php:36
+msgid "Halva: Random Posts"
+msgstr ""
+
+#: widgets/widget-random-posts.php:120
+msgid "Random posts"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:34
+msgid "Displays a list of recent posts."
+msgstr ""
+
+#: widgets/widget-recent-posts.php:36
+msgid "Halva: Recent Posts"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:120
+msgid "Recent posts"
+msgstr ""
+
+#: widgets/widget-social-links.php:34
+msgid "Displays links to social profiles."
+msgstr ""
+
+#: widgets/widget-social-links.php:36
+msgid "Halva: Social Links"
+msgstr ""
+
+#: widgets/widget-social-links.php:86
+msgid "Twitter X URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:93
+msgid "Facebook URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:100
+msgid "Pinterest URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:107
+msgid "Telegram URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:114
+msgid "Reddit URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:121
+msgid "TikTok URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:128
+msgid "Discord URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:135
+msgid "VK URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:142
+msgid "Odnoklassniki URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:149
+msgid "Yandex URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:156
+msgid "Linkedin URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:163
+msgid "PayPal URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:170
+msgid "Patreon URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:177
+msgid "Etsy URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:184
+msgid "Amazon URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:191
+msgid "Flickr URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:198
+msgid "Instagram URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:205
+msgid "Deviantart URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:212
+msgid "YouTube URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:219
+msgid "Vimeo URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:226
+msgid "Twitch URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:233
+msgid "Soundcloud URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:240
+msgid "Spotify URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:247
+msgid "Dribbble URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:254
+msgid "Behance URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:261
+msgid "Github URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:268
+msgid "Stack Overflow URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:275
+msgid "Slack URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:282
+msgid "Mailchimp URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:289
+msgid "RSS URL:"
+msgstr ""
+
+#: widgets/widget-social-links.php:342
+msgid "Social links"
+msgstr ""
+
+#: widgets/widget-social-links.php:443
+msgid "There are no social links."
+msgstr ""

@@ -1,0 +1,57 @@
+.tnp.tnp-subscription label {
+    display: none;
+}
+
+.bwp-sidebar-content .wp-block-group .wp-block-group__inner-container .tnp.tnp-subscription {
+    margin-left: 0;
+}
+
+.tnp.tnp-subscription form .tnp-field.tnp-field-button input {
+    background: #5D5D5D;
+}
+
+.tnp.tnp-subscription form .tnp-field.tnp-field-email input {
+    background: #fff;
+}
+
+@media (min-width: 1489px) {
+    .tnp.tnp-subscription form {
+        display: flex;
+    }
+
+    .tnp.tnp-subscription form .tnp-field.tnp-field-email {
+        margin: 0;
+    }
+
+    .tnp.tnp-subscription form .tnp-field.tnp-field-email input {
+        width: 714px;
+        height: 60px;
+        border: 1px solid #444444;
+        border-radius: 0;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 31.2px;
+        letter-spacing: 0%;
+    }
+
+    .tnp.tnp-subscription form .tnp-field.tnp-field-button {
+        margin: 0;
+    }
+
+    .tnp.tnp-subscription form .tnp-field.tnp-field-button input {
+        width: 191px;
+        height: 60px;
+        border: 1px solid #444444;
+        border-radius: 0;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 31.2px;
+        letter-spacing: 0%;
+        padding: 0;
+    }
+
+    .bwp-sidebar-content .wp-block-group .wp-block-group__inner-container .tnp.tnp-subscription {
+        margin-top: 55px;
+        margin-bottom: 0;
+    }
+}

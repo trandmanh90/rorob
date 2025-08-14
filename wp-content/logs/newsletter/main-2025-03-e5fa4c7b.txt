@@ -1,0 +1,2 @@
+26-03-2025 10:10:08 - ERROR - 8.7.1 - 80.1 MB/ - [cron] > cURL error 28: Operation timed out after 5000 milliseconds with 0 bytes received (http_request_failed) - 
+26-03-2025 10:24:45 - ERROR - 8.7.5 - 84.9 MB/ - developer > cURL error 28: Operation timed out after 5000 milliseconds with 9878 out of 34040 bytes received (http_request_failed) - 

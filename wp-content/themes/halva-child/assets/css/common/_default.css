@@ -1,0 +1,21 @@
+body {
+    padding-top: 30px;
+}
+
+.bwp-content .alignwide {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 !important;
+}
+
+@media (max-width: 991px) {
+    .hidden-max-991px {
+        display: none;
+    }    
+}
+
+@media (min-width: 1367px) {
+    body {
+        padding-top: 77px;
+    }    
+}
